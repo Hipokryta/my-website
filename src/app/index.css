@@ -1,0 +1,108 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+
+#container {
+	margin: 526px auto 0 auto;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	z-index: 3;
+	padding-top: 20px;
+}
+.bg {
+	background: #f4f3f3 url(../assets/images/code-wallpaper-1-melting.jpg) fixed;
+	background-size:100%
+}
+
+header {
+	background: #050C29;
+	background-size:100%;
+	min-height: 200px;
+}
+
+header .michal {
+	padding-top: 100px;
+	//border-radius: 25px;
+	//background-color: blue;
+
+}
+
+header .avatar {
+	display: block;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+header h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	display: block;
+	font-size: 3em;
+	line-height: 1em;
+	padding-top: 20px;
+}
+
+header h2 span {
+	display: block;
+	font-size: 14px;
+	padding-top: 20px;
+	font-weight: normal;
+	color: rgba(255,255,255,0.6);
+	font-family: ProximaNovaLight;
+	letter-spacing: 0.2em;
+}
+
+header .social {
+	text-align: center;
+	padding-top: 0;
+}
+
+header .social a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	text-indent: -999em;
+	-webkit-transform: scale(0.5, 0.5);
+	transform: scale(0.5, 0.5);
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	border: 0;
+
+	-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
+transition: all .2s ease-in-out;
+}
+
+.box {
+  margin: 50px auto;
+  width: 250px;
+  height: 250px;
+}
+.box:hover {
+  transform: rotate(360deg);
+}
+.rotate {
+  transition: all 0.5s ease-in-out;
+}
+.rotate:hover {
+  transition: all 1s ease-in-out;
+}
+
+header .social a.twitter  { background-image: url(../assets/images/twitter.png); }
+header .social a.linkedin { background-image: url(../assets/images/linkedin.png); }
+header .social a.medium   { background-image: url(../assets/images/medium.png); display:none; }
+header .social a.email    { background-image: url(../assets/images/email.png); }
+header .social a.github   { background-image: url(../assets/images/github.png); }

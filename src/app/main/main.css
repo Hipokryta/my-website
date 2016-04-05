@@ -1,0 +1,54 @@
+
+img.company-logo {
+	height: 90px !important;
+	max-width: 270px !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	margin-top: 10px !important;
+}
+
+.job-title {
+	background-color: #101010;
+}
+
+.job-desc h3{
+	color: white;
+}
+
+.parallax {
+  position:absolute;
+  left: 0;
+  top: 0;
+}
+
+.photo {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+}
+.photo span {
+  bottom: 0;
+  color: white;
+  display: block;
+  left: 50%;
+  margin-left: -640px;
+  font-size: 38px;
+  padding: 10px;
+  position: absolute;
+  text-shadow: 0 2px 0 black, 0 0 10px black;
+  width: 1280px;
+}
+
+.hackSilesia {
+  background-image: url(../../assets/images/hackSilesia.jpg);
+}
+
+.gallery {
+	list-style-type: none;
+}
+
+body{
+	color:white;
+}
