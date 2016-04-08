@@ -1,9 +1,6 @@
 
 img.company-logo {
 	height: 90px !important;
-	max-width: 270px !important;
-	margin-left: 10% !important;
-	margin-right: 10% !important;
 	margin-top: 10px !important;
 }
 
@@ -43,6 +40,9 @@ img.company-logo {
 
 .hackSilesia {
   background-image: url(../../assets/images/hackSilesia.jpg);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 
 .gallery {
@@ -51,4 +51,12 @@ img.company-logo {
 
 body{
 	color:white;
+}
+
+ul.gallery {
+  padding-left: 0px;
+}
+
+.container {
+  background-color:#050C29;
 }

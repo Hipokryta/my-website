@@ -9,7 +9,6 @@
   height: 200px;
 }
 
-
 #container {
 	margin: 526px auto 0 auto;
 	width: 100%;
@@ -20,8 +19,9 @@
 	padding-top: 20px;
 }
 .bg {
-	background: #f4f3f3 url(../assets/images/code-wallpaper-1-melting.jpg) fixed;
-	background-size:100%
+	background: #f4f3f3 url(../assets/images/code-wallpaper-1-melting.jpg) no-repeat fixed;
+	background-size:100%;
+	background-color: #050C29;
 }
 
 header {
@@ -83,7 +83,7 @@ header .social a {
 	border: 0;
 
 	-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .box {
