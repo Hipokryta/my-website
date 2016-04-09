@@ -41,8 +41,7 @@ img.company-logo {
 .hackSilesia {
   background-image: url(../../assets/images/hackSilesia.jpg);
   background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
+  background-position:center !important;
 }
 
 .gallery {
